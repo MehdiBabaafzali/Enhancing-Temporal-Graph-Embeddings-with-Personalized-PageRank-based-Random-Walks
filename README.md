@@ -4,7 +4,7 @@
 
 ---
 
-## Overview  
+## 📄 Overview  
 This repository enhances **node property prediction** in temporal graphs by integrating **Personalized PageRank (PPR)** into temporal graph embedding models. Built on the [Temporal Graph Benchmark (TGB)](https://tgb.complexdatalab.com/), we focus on the **TGBn-trade** dataset to demonstrate how PPR-augmented embeddings improve performance on node classification tasks.
 
 ## 🚀 Key Features  
@@ -17,7 +17,7 @@ This repository enhances **node property prediction** in temporal graphs by inte
 - **Improved results** on TGBn-trade node property prediction.   
 ---
 
-## Background  
+## 🔄 Background  
 ### Temporal Graph Benchmark (TGB)  
 TGB provides datasets and tasks for evaluating models on dynamic graphs. **TGBn-trade** is the smallest dataset, tracking yearly international trade relationships (nodes = countries, edges = trade volumes) over 31 years.  
 
@@ -41,7 +41,7 @@ Existing temporal graph models focus on **local neighborhoods** for embeddings b
 ---
 ## Requirement 
 ---
-## Train  
+## 🛠️ Train  
 ### Example of training `DyGFormer` on `tgbn-trade` dataset: 
 ```bash  
 python train_node_classification.py --dataset_name tgbn-trade --model_name DyGFormer --patch_size 2 --max_input_sequence_length 64 --num_runs 5 --gpu 0
