@@ -26,7 +26,7 @@ Existing temporal graph models focus on **local neighborhoods** for embeddings b
 
 ---
 
-## Methodology  
+## 📖 Methodology  
 ### Pipeline  
 1. **Yearly PPR Matrices**: For each snapshot (year), compute a PPR matrix where the *i*-th row contains restart probabilities from node *i*.  
 2. **Temporal Embeddings**: Generate embeddings using models like DyGFormer.  
@@ -34,8 +34,9 @@ Existing temporal graph models focus on **local neighborhoods** for embeddings b
    - Concatenate embeddings with PPR vectors.  
    - Down-project via a linear layer for classification.  
 ### Why PPR?  
-- Captures **global influence** of nodes beyond immediate neighbors.  
-- **Efficient updates** for dynamic graphs (no full recomputation).  
+- **Global Perspective**: PPR captures long-range dependencies beyond immediate neighbors.
+- **No Learning in P**: PPR matrices are computed statically for each snapshot (year), ensuring structural signals remain fixed and interpretable.
+- **Scalability**: Inspired by SDG, PPR computation leverages sparse operations for large graphs. 
 
 ---
 
