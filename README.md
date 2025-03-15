@@ -19,7 +19,7 @@ This repository enhances **node property prediction** in temporal graphs by inte
 
 ## 🔄 Background  
 ### Temporal Graph Benchmark (TGB)  
-TGB provides datasets and tasks for evaluating models on dynamic graphs. **TGBn-trade** is the smallest dataset, tracking yearly international trade relationships (nodes = countries, edges = trade volumes) over 31 years.  
+TGB provides datasets and tasks for evaluating models on dynamic graphs. **TGBn-trade** is the smallest dataset, tracking yearly international trade relationships (`nodes` = countries, `edges` = trade volumes) over 31 years.  
 
 ### Problem  
 Existing temporal graph models focus on **local neighborhoods** for embeddings but lack **global structural context**. Our solution enriches embeddings with PPR to capture long-range dependencies.  
