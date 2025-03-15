@@ -9,7 +9,7 @@ This repository enhances **node property prediction** in temporal graphs by inte
 
 ### Key Features  
 - 🎯 **PPR-augmented embeddings** combining local and global graph structure.  
-- ⏱️ **Efficient PPR updates** inspired by [SDG (Scalable Dynamic Graph Learning)](https://github.com/DongqiFu/SDG).  
+- ⏱️ **Efficient PPR updates** inspired by [SDG (A Simplified and Dynamic Graph Neural Network)](https://github.com/DongqiFu/SDG).  
 - 📈 **Improved results** on TGBn-trade node property prediction.  
 - 🧩 **Compatibility** with TGB and modifications of [DyGLib_TGB](https://github.com/yule-BUAA/DyGLib_TGB) codebase.  
 
