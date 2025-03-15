@@ -7,11 +7,12 @@
 ## Overview  
 This repository enhances **node property prediction** in temporal graphs by integrating **Personalized PageRank (PPR)** into temporal graph embedding models. Built on the [Temporal Graph Benchmark (TGB)](https://tgb.complexdatalab.com/), we focus on the **TGBn-trade** dataset to demonstrate how PPR-augmented embeddings improve performance on node classification tasks.
 
-### Key Features  
-- 🎯 **PPR-augmented embeddings** combining local and global graph structure.  
-- 📈 **Improved results** on TGBn-trade node property prediction.  
-- 🧩 **Compatibility** with TGB and modifications of [DyGLib_TGB](https://github.com/yule-BUAA/DyGLib_TGB) codebase.
-- ⏱️ **Efficient PPR updates** inspired by [SDG (A Simplified and Dynamic Graph Neural Network)](https://github.com/DongqiFu/SDG) (didn't used here for tgbn-trade).    
+## 🚀 Key Features  
+- **PPR-Augmented Embeddings**: Combines temporal node embeddings with global structural signals from PPR.  
+- **Snapshot-Specific PPR**: Computes yearly PPR matrices to capture evolving graph structure.  
+- **No Learning in P**: PPR matrices are static and interpretable (not trainable).  
+- **SDG-Compatible Design**: Ready to integrate incremental PPR updates for large graphs (via [SDG](https://github.com/DongqiFu/SDG)).  
+- **TGBn-trade Focus**: Optimized for the smallest TGB dataset, ensuring fast experimentation.      
 
 ---
 
