@@ -41,7 +41,3 @@ Existing temporal graph models focus on **local neighborhoods** for embeddings b
 ### Example of training `DyGFormer` on `tgbn-trade` dataset: 
 ```bash  
 python train_node_classification.py --dataset_name tgbn-trade --model_name DyGFormer --patch_size 2 --max_input_sequence_length 64 --num_runs 5 --gpu 0
-
-
-
- 
