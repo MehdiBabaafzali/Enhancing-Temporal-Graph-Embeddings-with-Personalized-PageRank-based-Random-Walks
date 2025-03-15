@@ -13,7 +13,8 @@ This repository enhances **node property prediction** in temporal graphs by inte
 - **No Learning in P**: PPR matrices are static and interpretable (not trainable).  
 - **SDG-Compatible Design**: Ready to integrate incremental PPR updates for large graphs (via [SDG](https://github.com/DongqiFu/SDG)).  
 - **TGBn-trade Focus**: Optimized for the smallest TGB dataset, ensuring fast experimentation.      
-
+- **Compatibility** with TGB and modifications of [DyGLib_TGB](https://github.com/yule-BUAA/DyGLib_TGB) codebase.
+- **Improved results** on TGBn-trade node property prediction.   
 ---
 
 ## Background  
