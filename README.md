@@ -31,4 +31,14 @@ Existing temporal graph models focus on **local neighborhoods** for embeddings b
 3. **PPR Fusion**:  
    - Concatenate embeddings with PPR vectors.  
    - Down-project via a linear layer for classification.  
+### Why PPR?  
+- Captures **global influence** of nodes beyond immediate neighbors.  
+- **Efficient updates** for dynamic graphs (no full recomputation).  
 
+---
+
+## Installation  
+1. Clone the repository:  
+```bash  
+git clone https://github.com/your-username/TemporalPPR-NodeEmbeddings.git  
+cd TemporalPPR-NodeEmbeddings  
