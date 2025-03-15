@@ -27,7 +27,7 @@ Existing temporal graph models focus on **local neighborhoods** for embeddings b
 ## Methodology  
 ### Pipeline  
 1. **Yearly PPR Matrices**: For each snapshot (year), compute a PPR matrix where the *i*-th row contains restart probabilities from node *i*.  
-2. **Temporal Embeddings**: Generate embeddings using models like TGAT or DySAT.  
+2. **Temporal Embeddings**: Generate embeddings using models like DyGFormer.  
 3. **PPR Fusion**:  
    - Concatenate embeddings with PPR vectors.  
    - Down-project via a linear layer for classification.  
