@@ -39,7 +39,8 @@ Existing temporal graph models focus on **local neighborhoods** for embeddings b
 - **Scalability**: Inspired by SDG, PPR computation leverages sparse operations for large graphs. 
 
 ---
-
+## Requirement 
+---
 ## Train  
 ### Example of training `DyGFormer` on `tgbn-trade` dataset: 
 ```bash  
