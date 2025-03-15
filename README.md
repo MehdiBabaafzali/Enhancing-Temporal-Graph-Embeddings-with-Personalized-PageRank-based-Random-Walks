@@ -1,4 +1,3 @@
-# Enhancing-Temporal-Graph-Embeddings-with-Personalized-PageRank-based-Random-Walks
 # TemporalPPR-NodeEmbeddings  
 **Enhancing Temporal Graph Embeddings with Personalized PageRank-based Random Walks**  
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
