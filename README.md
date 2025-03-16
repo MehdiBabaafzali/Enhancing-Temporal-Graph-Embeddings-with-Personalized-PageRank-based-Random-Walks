@@ -68,3 +68,24 @@ Existing temporal graph models focus on **local neighborhoods** for embeddings b
 ### Example of training `DyGFormer` on `tgbn-trade` dataset: 
 ```bash  
 python train_node_classification.py --dataset_name tgbn-trade --model_name DyGFormer --patch_size 2 --max_input_sequence_length 64 --num_runs 5 --gpu 0
+```
+
+# P Matrix (Personalized PageRank)
+
+## Definition:
+A row-stochastic matrix \( P \in \mathbb{R}^{n \times n} \) for each snapshot. Each entry \( P_{i,j} \) represents the probability of reaching node \( j \) from node \( i \) via teleporting random walks (restart probability \( \alpha = 0.15 \)).
+
+## Key Properties:
+
+### 1. Global Signals:
+Captures long-range dependencies (e.g., economic influence in trade networks).
+
+### 2. Temporal Smoothness:
+Small structural changes between snapshots lead to smooth updates in \( P \).
+
+### 3. Interpretability:
+Rows directly encode node-specific influence distributions.
+
+## Role in Prediction:
+- Augments embeddings with structural importance (e.g., a country’s global trade reach).
+- Combined with temporal embeddings via concatenation and linear projection.
