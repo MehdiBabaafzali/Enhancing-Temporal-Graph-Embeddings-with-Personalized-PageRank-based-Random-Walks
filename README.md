@@ -39,6 +39,22 @@ Existing temporal graph models focus on **local neighborhoods** for embeddings b
 - **Scalability**: Inspired by SDG, PPR computation leverages sparse operations for large graphs. 
 
 ---
+
+## 📊 Results
+
+### Evaluation of Different Models Before and After Applying the Proposed Method
+
+| Model Name   | Model Accuracy Before Applying Proposed Method | Model Accuracy After Applying Proposed Method | Improvement Percentage |
+|--------------|--------------------------------------------------|-----------------------------------------------|------------------------|
+| DygFormer    | 0.388 ± 0.006                                    | 0.4002 ± 0.0037                               | 1.22%                  |
+| TGN          | 0.374 ± 0.001                                    | 0.3877 ± 0.0032                              | 1.3%                   |
+| DyRep        | 0.374 ± 0.001                                    | 0.3910 ± 0.0011                              | 1.7%                   |
+| TCL          | 0.3743 ± 0.005                                  | 0.3913 ± 0.0007                              | 1.7%                   |
+| Graphmixer   | 0.3747 ± 0.0013                                  | 0.3924 ± 0.0008                              | 1.77%                  |
+| TGAT         | 0.3741 ± 0.0003                                  | 0.3895 ± 0.0012                              | 1.54%                  |
+
+---
+
 ## 📦 Requirement 
 - **PyTorch**
 - **py-tgb**
@@ -46,22 +62,8 @@ Existing temporal graph models focus on **local neighborhoods** for embeddings b
 - **scipy**
 - **tqdm**
 ---
+
 ## 🛠️ Train  
 ### Example of training `DyGFormer` on `tgbn-trade` dataset: 
 ```bash  
 python train_node_classification.py --dataset_name tgbn-trade --model_name DyGFormer --patch_size 2 --max_input_sequence_length 64 --num_runs 5 --gpu 0
-```
----
-### 📊 Results
-
----
-### 📚 Citation
-```bibtext
-@misc{,
-  author = {},
-  title = {},
-  year = {2025},
-  publisher = {},
-  journal = {},
-  howpublished = {\url{}}
-}
