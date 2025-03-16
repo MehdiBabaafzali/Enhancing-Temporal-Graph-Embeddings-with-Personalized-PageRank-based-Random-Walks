@@ -21,7 +21,7 @@ This repository enhances **node property prediction** in temporal graphs by inte
 ### Temporal Graph Benchmark (TGB)  
 TGB provides datasets and tasks for evaluating models on dynamic graphs. **TGBn-trade** is the smallest Dynamic Node Property Prediction dataset, tracking yearly international trade relationships (`nodes` = **countries**, `edges` = **trade volumes**) over 31 years.  
 ### PPR (P) Matrix
-A row-stochastic matrix $`P \in \mathbb{R}^{n \times n}`$ for each snapshot. Each entry \( P_{i,j} \) represents the probability of reaching node \( j \) from node \( i \) via teleporting random walks (with a restart probability \( \alpha = 0.15 \)).
+A row-stochastic matrix $`P \in \mathbb{R}^{n \times n}`$ for each snapshot. Each entry $`P_{i,j}`$ represents the probability of reaching node $`j`$ from node $`i`$ via teleporting random walks (with a restart probability $`\alpha = 0.15 `$).
 ### Problem  
 Existing temporal graph models focus on **local neighborhoods** for embeddings but lack **global structural context**. Our solution enriches embeddings with PPR to capture long-range dependencies.  
 
