@@ -43,7 +43,7 @@ Existing temporal graph models focus on **local neighborhoods** for embeddings b
 
 ## 📊 Results
 
-####: Evaluation of Different Models Before and After Applying the Proposed Method:
+<center>#### Evaluation of Different Models Before and After Applying the Proposed Method:</center>
 
 
 | Model Name   | Model Accuracy Before Applying Proposed Method | Model Accuracy After Applying Proposed Method | Improvement Percentage |
