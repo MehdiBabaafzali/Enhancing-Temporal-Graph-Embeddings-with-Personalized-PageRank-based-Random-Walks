@@ -50,4 +50,14 @@ Existing temporal graph models focus on **local neighborhoods** for embeddings b
 ### Example of training `DyGFormer` on `tgbn-trade` dataset: 
 ```bash  
 python train_node_classification.py --dataset_name tgbn-trade --model_name DyGFormer --patch_size 2 --max_input_sequence_length 64 --num_runs 5 --gpu 0
----
+```
+### 📚 Citation
+```bibtext
+@misc{YourName2024TempPPR,
+  author = {Your Name},
+  title = {Enhancing Temporal Graph Embeddings with Personalized PageRank-based Random Walks},
+  year = {2024},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/your_username/repo_name}}
+}
