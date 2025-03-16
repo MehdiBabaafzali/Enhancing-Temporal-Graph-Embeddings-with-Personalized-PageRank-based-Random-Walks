@@ -53,11 +53,11 @@ python train_node_classification.py --dataset_name tgbn-trade --model_name DyGFo
 ```
 ### 📚 Citation
 ```bibtext
-@misc{YourName2024TempPPR,
-  author = {Your Name},
-  title = {Enhancing Temporal Graph Embeddings with Personalized PageRank-based Random Walks},
-  year = {2024},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{https://github.com/your_username/repo_name}}
+@misc{,
+  author = {},
+  title = {},
+  year = {2025},
+  publisher = {},
+  journal = {},
+  howpublished = {\url{}}
 }
