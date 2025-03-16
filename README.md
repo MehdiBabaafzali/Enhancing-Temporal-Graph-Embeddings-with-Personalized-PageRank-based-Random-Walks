@@ -52,7 +52,7 @@ Existing temporal graph models focus on **local neighborhoods** for embeddings b
 | DyRep        | 0.374 ± 0.001                                    | 0.3910 ± 0.0011                              | 1.7%                   |
 | TCL          | 0.3743 ± 0.005                                  | 0.3913 ± 0.0007                              | 1.7%                   |
 | Graphmixer   | 0.3747 ± 0.0013                                  | 0.3924 ± 0.0008                              | 1.77%                  |
-| TGAT         | 0.3741 ± 0.0003                                  | 0.3895 ± 0.0012   
+| TGAT         | 0.3741 ± 0.0003                                  | 0.3895 ± 0.0012                              |1.54%
 
 ---
 
