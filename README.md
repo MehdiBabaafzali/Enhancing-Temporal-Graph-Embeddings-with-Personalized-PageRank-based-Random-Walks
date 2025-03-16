@@ -43,7 +43,8 @@ Existing temporal graph models focus on **local neighborhoods** for embeddings b
 
 ## 📊 Results
 
-<p align="center"><strong>Evaluation of Different Models Before and After Applying the Proposed Method:</strong></p>
+<p align="center"><strong>Evaluation of Different Models Before and After Applying the Proposed Method</strong></p>
+
 | Model Name   | Model Accuracy Before Applying Proposed Method | Model Accuracy After Applying Proposed Method | Improvement Percentage |
 |:--------------:|:-----------------------------------------------:|:---------------------------------------------:|:----------------------:|
 | DygFormer    | 0.388 ± 0.006                                  | 0.4002 ± 0.0037                              | 1.22%                  |
